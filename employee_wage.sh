@@ -5,7 +5,9 @@
 # Add Part time Employee & Wage - Assume Part time Hour is 4
 # Solving using Case Statement
 # Calculating Wages for a Month  Assume 20 Working Day per Month
-#--------------------------------------------------------------------------------------
+# Calculate Wages till a condition of total working hours or days is reached for a month - Assume 100 hours
+# Refactor the Code to write a function to get work hours
+#----------------------------------------------------------------------------------------------------------
 
 echo "   ------------ Welcome to Employee Wage Computation Program ---------------    "
 
