@@ -17,12 +17,9 @@ wage=20
 working_hrs=8
 part_wrk_hrs=4
 
-# caluculate total wage as per attandace
-if [[ $attendance -eq 1 ]]
-then
-	total_wage=$(( wage * working_hrs ))
-elif [[ $attendance -eq 2 ]]
-then
-	 total_wage=$(( wage * part_wrk_hrs ))
+# caluculate total wage as per attandace by using case statement
+case $attendance  in 
+	1)	total_wage=$(( wage * working_hrs )) ;;
 
-fi
+	2)	 total_wage=$(( wage * part_wrk_hrs )) ;;
+esac
